@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/fonts.css" rel="stylesheet" />
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="icon" href="./images/a-gamium-purple.png" type="images/svg+xml" sizes="16x16">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.5/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.5/plugin/duration.min.js"></script>
+
+    <script src="js/gsap/gsap.min.js" type="text/javascript"></script>
+
+    <script src="js/website.js" type="text/javascript"></script>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <script src="js/data.js" type="text/javascript"></script>
+
+    <script src="js/hammer.min.js" type="text/javascript"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELM7XF9TQJ"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ELM7XF9TQJ');
+    </script>
+    <title>Gamium - The center of the Metaverse</title>
+    <meta name="description"
+        content="Gamium is building the first decentralized social metaverse and the digital identity of humans. Create your avatar, exchange NFTs, get a job, socialize and earn in the Gamium world.">
+    <meta name="keywords" content="Gamium center of the Metaverse">
+    <meta name="author" content="Gamium">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+
+</head>
+
+<body>
+
+    <span id="navbar-sound" class="navbar-sound">
+        <img id="sound-off" src="./images/sound_off.svg">
+        <img id="sound-on" src="./images/sound_on.svg" style="display: none;">
+    </span>
+
+    <nav id="navigation">
+        <div id="menu-mobile">
+            <div class="menu-mobile-container-1">
+                <div id="id_btn_press_and_partners" class="menu-mobile-wrp-1">
+                    <span><template>nav_bar.press_partners</template><span></span></span>
+                </div>
+                <div id="id_btn_careers" class="menu-mobile-wrp-1">
+                    <span><template>nav_bar.careers</template><span></span></span>
+                </div>
+                <div id="id_btn_faqs" class="menu-mobile-wrp-1">
+                    <span><template>nav_bar.faqs</template><span></span></span>
+                </div>
+            </div>
+            <div class="menu-mobile-container-2">
+                <div id="burger-mobile" class="navbar-burger"
+                    style="width: 100%; display: flex; justify-content: center; margin-left: 0px;">
+                    <div id="burguer-resize" class="container-burger"
+                        style="display: flex;align-items: center;justify-content: flex-start; width:80% ;margin-left: 0px;">
+                        <img id="burger-img-click-mobile" src="./images/burguer-lines.svg" class="container-bar">
+                        <img id="close-img-click-mobile" src="./images/close_x.svg" class="container-bar"
+                            style="display: none;">
+                    </div>
+                    <a href="index.html" class="navbar-burger" style="margin-left: 0px;">
+                        <img id="navbar-img-gamium" src="./images/logo.svg" class="navbar-img-gamium">
+                    </a>
+                </div>
+                <div class="container-buttons-header"
+                    style=" display: flex;justify-content: center;align-items: center; width: 100%;">
+                    <a href="https://whitepaper.gamium.world/" target="_blank">
+                        <div id="id_btn_whitepaper-mobile" class="btn-whitepaper-mobile">
+                            <span><template>burger_menu.resource_1</template><span></span></span>
+                        </div>
+                    </a>
+                </div>
+                <span id="navbar-close_overlay_icon-mobile" class="navbar-close_overlay_icon">
+                    <span class="span-close"> <template>burger_menu.closeIcon</template><span></span> </span>
+                    <img class="img-close-video" src="./images/close_x.svg">
+                </span>
+                <div class="container-buttons-header"
+                    style="display: flex;justify-content: center;align-items: center; width: 100%;">
+                    <a href="https://app.gamium.world" target="_blank">
+                        <div id="id_btn_launch_app-mobile" class="btn-launch-app" style="margin-right:0px">
+                            <span><template>burger_menu.launch_app</template><span></span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="menu-web">
+            <div class="menu-mobile-container-3"
+                style="margin-top: 25px; width: 100%; display: flex; justify-content: space-between;">
+                <div id="burger" class="navbar-burger">
+                    <div class="container-burger">
+                        <img id="burger-img-click" src="./images/burguer-lines.svg" class="container-bar">
+                        <img id="close-img-click" src="./images/close_x.svg" class="container-bar" style="display: none;">
+                    </div>
+                    <a href="index.html" class="navbar-burger">
+                        <img id="navbar-img-gamium" src="./images/logo.svg" class="navbar-img-gamium">
+                    </a>
+                </div>
+                <span id="navbar-close_overlay_icon" class="navbar-close_overlay_icon">
+                    <span class="span-close"> <template>burger_menu.closeIcon</template><span></span> </span>
+                    <img class="img-close-video" src="./images/close_x.svg">
+                </span>
+
+                <div class="container-buttons-header" style="align-items: center;">
+                    <div id="id_btn_press_and_partners" class="btn-default-menu-web">
+                        <span><template>nav_bar.press_partners</template><span></span></span>
+                    </div>
+                    <div id="id_btn_careers" class="btn-default-menu-web">
+                        <span><template>nav_bar.careers</template><span></span></span>
+                    </div>
+                    <div id="id_btn_faqs" class="btn-default-menu-web">
+                        <span><template>nav_bar.faqs</template><span></span></span>
+                    </div>
+                    <div style="border-left: 2px solid white; height: 20px;"></div>
+
+                    <a href="https://whitepaper.gamium.world/" target="_blank">
+                        <div id="id_btn_whitepaper-mobile" class="btn-default-menu-web">
+                            <span><template>burger_menu.resource_1</template><span></span></span>
+                        </div>
+                    </a>
+
+                    <a href="https://app.gamium.world" target="_blank">
+                        <div id="id_btn_launch_app" class="btn-launch-app">
+                            <span><template>burger_menu.launch_app</template><span></span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="menu_background">
+            <div id="menu_container" class="menu_container">
+
+                <div class="menu-section-form">
+                    <div id="change-lang-menu" class="menu-language">
+                        <span id="id-lang-name">En</span>
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </div>
+
+                    <div class="menu-content-section"> </div>
+
+                    <form id="menu-form">
+                        <div class="menu-content-section-text">
+                            <span><template>burger_menu.input_text</template><span></span></span>
+                        </div>
+                        <div id="8-web-email-container" class="input-email">
+                            <input type="text" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div id="8-web-email" class="wrapper-sig-up">
+                            <div id="sign-in-main" class="sign-in-main" type="submit">
+                                <template>burger_menu.input_btn</template><span></span>
+                            </div>
+                        </div>
+                        <div id="8-web-ok" class="col-md-12 no-mostrar register-ok">
+                            <template>burger_menu.input_thanks</template><span></span>
+                        </div>
+                    </form>
+
+                </div>
+                <hr class="hr-style margin-xy-25">
+                <div class="menu-section-info">
+                    <div class="menu-content-info-wrapper">
+                        <span class="menu-content-title">Tokens</span>
+                        <a style="margin-bottom: 15px" href="https://coinmarketcap.com/currencies/gamium/"
+                            target="_blank">
+                            <span class="menu-font-style">
+                                <template>burger_menu.tokens_1</template>
+                                <span></span>
+                            </span>
+                        </a>
+                        <a style="margin-bottom: 15px">
+                            <span class="menu-font-style">
+                                <template>burger_menu.tokens_2</template>
+                                <span></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="menu-content-section">
+                    </div>
+                    <div class="menu-content-items">
+                        <div class="menu-content-wrapper">
+                            <span
+                                class="menu-content-title"><template>burger_menu.sections_title</template><span></span></span>
+                            <span id="intro_metaverse" class="menu-font-style"
+                                onclick="website.changeHash('intro_metaverse')"><template>burger_menu.section_1</template><span></span></span>
+                            <span id="intro_social_metaverse" class="menu-font-style"
+                                onclick="website.changeHash('intro_social_metaverse')"><template>burger_menu.section_2</template><span></span></span>
+                            <span id="intro_avatar" class="menu-font-style"
+                                onclick="website.changeHash('intro_avatar')"><template>burger_menu.section_3</template><span></span></span>
+                            <span id="intro_social_features" class="menu-font-style"
+                                onclick="website.changeHash('intro_social_features')"><template>burger_menu.section_4</template><span></span></span>
+                            <span id="intro_economy" class="menu-font-style"
+                                onclick="website.changeHash('intro_economy')"><template>burger_menu.section_5</template><span></span></span>
+                        </div>
+                        <div class="menu-content-wrapper">
+                            <span
+                                class="menu-content-title"><template>burger_menu.resources_title</template><span></span></span>
+                            <a style="margin-bottom: 15px;" href="https://whitepaper.gamium.world" target="_blank"><span
+                                    class="menu-font-style"><template>burger_menu.resource_1</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" href="https://www.gamium.world/pdf/extended_roadmap.pdf" target="_blank"><span
+                                    class="menu-font-style"><template>burger_menu.resource_2</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" href="https://www.gamium.world/pdf/tokenomics.pdf" target="_blank"><span
+                                    class="menu-font-style"><template>burger_menu.resource_3</template><span></span></span></a>
+                            <!--<a style="margin-bottom: 15px;" href="pdf/partners.pdf" target="_blank"><span
+                                    class="menu-font-style"><template>press_partners.partners</template><span></span></span></a>-->
+                        </div>
+                        <div class="menu-content-wrapper">
+                            <span
+                                class="menu-content-title"><template>burger_menu.social_media_title</template><span></span></span>
+                            <a style="margin-bottom: 15px;" target="_blank"
+                                href="https://www.instagram.com/gamiumcorp/"><span
+                                    class="menu-font-style"><template>burger_menu.social_1</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" target="_blank" href="https://twitter.com/gamiumcorp"><span
+                                    class="menu-font-style"><template>burger_menu.social_2</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" target="_blank" href="https://discord.gg/eJZw3ASNh5"><span
+                                    class="menu-font-style"><template>burger_menu.social_3</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" target="_blank" href="https://t.me/gamiumcorp"><span
+                                    class="menu-font-style"><template>burger_menu.social_4</template><span></span></span></a>
+                            <a style="margin-bottom: 15px;" target="_blank" href="https://medium.com/@gamium"><span
+                                    class="menu-font-style"><template>burger_menu.social_5</template><span></span></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-section-footer">
+                    <hr class="hr-style">
+                    <div class="menu-footer-wrapper">
+                        <div class="full-with-100">
+                            © 2021 - Gamium Inc
+                        </div>
+                        <div class="full-with-100 centerFooterMenu">
+                            <a class="d-flex d-flex-a" target="_blank" href="https://www.instagram.com/gamiumcorp/">
+                                <ion-icon class="sidebar-logo" name="logo-instagram"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://twitter.com/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://discord.gg/eJZw3ASNh5">
+                                <ion-icon class="sidebar-logo" name="logo-discord"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://t.me/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="paper-plane"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://medium.com/@gamium">
+                                <ion-icon class="sidebar-logo" name="logo-medium"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="full-with-100 right">
+                            <a href="mailto:info@gamium.world">info@gamium.world</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="modal_press_and_partners">
+        <div class="modal_careers_close-wrp">
+            <div class="modal_careers_wrp-11">
+                <div class="btn-default-menu" style="display: flex; cursor: initial; color: white;">
+                    <span><template>nav_bar.press_partners</template><span></span></span>
+                </div>
+                <div id="id_btn_careers_modal" class="btn-default-menu" style="display: flex;">
+                    <span><template>nav_bar.careers</template><span></span></span>
+                </div>
+                <div id="id_faqs_modal" class="btn-default-menu" style="display: flex;">
+                    <span><template>nav_bar.faqs</template><span></span></span>
+                </div>
+            </div>
+            <a href="#"><span id="close_press_and_partners" class="navbar-close_overlay_icon">
+                    <img class="img-close-video" src="./images/close_x.svg">
+                </span>
+            </a>
+        </div>
+        <div class="menu_container_modal">
+            <div id="id_menu_press_and_partners">
+                <div class="modal_press_container-1" style="align-items: center;">
+                    <div class="style-width-200" style="display: flex; align-items: center;">
+                        <span class="modal_press_span-1"> <template>press_partners.press</template><span></span></span>
+                    </div>
+                    <div class="style-width-100perc">
+                        <a href="https://forbes.mc/article/gamium-is-building-the-foundation-of-web3-and-the-metaverse"
+                            target="_blank"><img class="img-press-partner" src="./images/press-1.svg" alt=""></a>
+                        <a href="https://www.pressreader.com/spain/la-vanguardia/20220210/282729115312836"
+                            target="_blank"><img class="img-press-partner" src="./images/press-2.svg" alt=""></a>
+                    </div>
+                </div>
+                <hr id="hr-line" class="hr-style margin-xy-25">
+                <div class="modal_press_container-1">
+                    <div class="style-width-200">
+                        <span
+                            class="modal_press_span-1"><template>press_partners.partners</template><span></span></span>
+                    </div>
+                    <div class="modal_press_wrp">
+                        <a href="https://daomaker.com/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-1.svg" alt=""></a>
+                        <a href="https://master.ventures/portfolio" target="_blank"><img class="img-press-partner"
+                                src="./images/part-18.svg" alt=""></a>
+                        <a href="https://metrix.capital/portfolio" target="_blank"><img class="img-press-partner"
+                                src="./images/part-14.svg" alt=""></a>
+                        <a href="https://unanimous.vc/portfolio/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-16.svg" alt=""></a>
+                        <a href="https://www.vent.finance/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-21.svg" alt=""></a>
+                        <a href="https://magnuscapital.com/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-6.svg" alt=""></a>
+                        <a href="https://www.venly.io/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-10.svg" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank"><img
+                                class="img-press-partner" src="./images/part-15.svg" alt=""></a>
+                        <a href="https://zbs.capital/portfolio/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-17.svg" alt=""></a>
+                        <a href="https://supraoracles.com/partnerships/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-11.svg" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UC8rNKrqBxJqL9izOOMxBJtw" target="_blank"><img
+                                class="img-press-partner" src="./images/part-5.svg" alt=""></a>
+                        <a href="https://peech.capital/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-19.svg" alt=""></a>
+                        <a href="https://rr2.capital/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-3.svg" alt=""></a>
+                        <a href="https://gamerich.com/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-9.svg" alt=""></a>
+                        <a href="https://www.youtube.com/c/KManuS88" target="_blank"><img class="img-press-partner"
+                                src="./images/part-13.svg" alt=""></a>
+                        <a href="https://www.atesis.vc/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-8.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/plantholt/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-20.svg" alt=""></a>
+                        <a href="https://parachain.vc/" target="_blank"><img class="img-press-partner"
+                                src="./images/part-4.svg" alt=""></a>
+                        <a href="https://www.youtube.com/c/healthypockets" target="_blank"><img
+                                class="img-press-partner" src="./images/part-2.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="menu-section-footer">
+                    <hr class="hr-style">
+                    <div class="menu-footer-wrapper">
+                        <div class="full-with-100">
+                            © 2021 - Gamium Inc
+                        </div>
+                        <div class="full-with-100 centerFooterMenu">
+                            <a class="d-flex d-flex-a" target="_blank" href="https://www.instagram.com/gamiumcorp/">
+                                <ion-icon class="sidebar-logo" name="logo-instagram"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://twitter.com/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://discord.gg/eJZw3ASNh5">
+                                <ion-icon class="sidebar-logo" name="logo-discord"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://t.me/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="paper-plane"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://medium.com/@gamium">
+                                <ion-icon class="sidebar-logo" name="logo-medium"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="full-with-100 right">
+                            <a href="mailto:info@gamium.world">info@gamium.world</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal_careers">
+        <div class="modal_careers_close-wrp">
+            <div class="modal_careers_wrp-11">
+                <div id="id_btn_press_and_partners_modal" class="btn-default-menu" style="display: flex;">
+                    <span><template>nav_bar.press_partners</template><span></span></span>
+                </div>
+                <div class="btn-default-menu" style=" display: flex; cursor: initial; color: white;">
+                    <span><template>nav_bar.careers</template><span></span></span>
+                </div>
+                <div id="id_faqs_modal" class="btn-default-menu" style="display: flex;">
+                    <span><template>nav_bar.faqs</template><span></span></span>
+                </div>
+            </div>
+            <a href="#"><span id="close_modal_careers" class="navbar-close_overlay_icon">
+                    <img class="img-close-video" src="./images/close_x.svg">
+                </span>
+            </a>
+        </div>
+        <div class="menu_container_modal">
+            <div id="id_modal_careers">
+                <div class="modal_press_container-1" style="align-items: center;">
+                    <div class="style-width-200"> <span class="modal_press_span-1">
+                            <template>careers.careers_title</template><span></span> </span></div>
+                    <div class="style-width-100perc">
+                        <span><template>careers.career_text</template><span></span></span>
+                    </div>
+                </div>
+                <hr id="hr-line" class="hr-style margin-xy-25">
+                <div class="modal_press_container-1">
+                    <div class="style-width-200"> <span
+                            class="modal_press_span-1"><template>careers.jobs_title</template><span></span></span></div>
+                    <div class="modal_careers_wrp-9">
+                        <div id="add-jobs-data">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-section-footer">
+                    <hr class="hr-style">
+                    <div class="menu-footer-wrapper">
+                        <div class="full-with-100">
+                            © 2021 - Gamium Inc
+                        </div>
+                        <div class="full-with-100 centerFooterMenu">
+                            <a class="d-flex d-flex-a" target="_blank" href="https://www.instagram.com/gamiumcorp/">
+                                <ion-icon class="sidebar-logo" name="logo-instagram"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://twitter.com/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://discord.gg/eJZw3ASNh5">
+                                <ion-icon class="sidebar-logo" name="logo-discord"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://t.me/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="paper-plane"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://medium.com/@gamium">
+                                <ion-icon class="sidebar-logo" name="logo-medium"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="full-with-100 right">
+                            <a href="mailto:info@gamium.world">info@gamium.world</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal_for_you" class="modal_for_you_ovelay">
+        <div class="custom-modal">
+            <div class="custom-modal-content">
+                <div class="custom-modal-header">
+                    <span class="custom-modal-title"><template>careers.popup.title</template><span></span></span>
+                    <img id="close-modal_for_you" style="width: 15px; cursor: pointer;" src="./images/close_x.svg">
+                </div>
+                <div class="custom-modal-body">
+                    <span><template>careers.popup.title_text_1</template><span></span></span>
+                    <span><template>careers.popup.text_1</template><span></span></span></br>
+                    <span><template>careers.popup.title_text_2</template><span></span></span>
+                    <span><template>careers.popup.text_2</template><span></span></span></br>
+                    <span><template>careers.popup.title_text_3</template><span></span></span>
+                    <span><template>careers.popup.text_3</template><span></span></span></br>
+                    <span><template>careers.popup.title_text_4</template><span></span></span>
+                    <span><template>careers.popup.text_4</template><span></span></span></br>
+                    <span><template>careers.popup.title_text_5</template><span></span></span>
+                    <span><template>careers.popup.text_5</template><span></span></span></br>
+                    <span><template>careers.popup.title_text_6</template><span></span></span>
+                    <span><template>careers.popup.text_6</template><span></span></span></span></br>
+                    <span><template>careers.popup.title_text_7</template><span></span></span>
+                    <span><template>careers.popup.text_7</template><span></span></span>
+                </div>
+                <div class="custom-modal-footer">
+                    <div id="btn-sounds-amazing" class="btn-custom-modal-1-large">
+                        <span
+                            class="btn-custom-modal-1-span"><template>careers.popup.button</template><span></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modal_faqs">
+        <div class="modal_careers_close-wrp">
+            <div class="modal_careers_wrp-11">
+                <div id="id_btn_press_and_partners_modal" class="btn-default-menu" style="display: flex;">
+                    <span><template>nav_bar.press_partners</template><span></span></span>
+                </div>
+                <div id="id_btn_careers_modal" class="btn-default-menu" style=" display: flex; ">
+                    <span><template>nav_bar.careers</template><span></span></span>
+                </div>
+                <div class="btn-default-menu" style="display: flex; color: white; cursor: initial;">
+                    <span><template>nav_bar.faqs</template><span></span></span>
+                </div>
+            </div>
+            <a href="#"><span id="close_modal_faqs" class="navbar-close_overlay_icon">
+                    <img class="img-close-video" src="./images/close_x.svg">
+                </span>
+            </a>
+        </div>
+        <div class="menu_container_modal">
+            <div id="id_menu_faqs">
+                <div class="modal_press_container-1"
+                    style="align-items: flex-start; margin-top: 25px; margin-bottom: 20px;">
+                    <div class=" style-width-modal-content" style="align-items: center; height: fit-content;">
+                        <span class="modal_press_span-1">
+                            <template>faqs.nav_bar.nav_bar_title</template><span></span>
+                        </span>
+                    </div>
+
+                    <div class="list-menu" id="list-menu">
+                        <span class="list-menu1"><a href="#gamium"><span id="gamium_span"
+                                    class="faqs_menu_span">Gamium</span></a></span>
+                        <span class="list-menu1"><a href="#theAvatar"><span id="theAvatar_span"
+                                    class="faqs_menu_span">The
+                                    Avatar</span></a>
+                        </span>
+                        <span class="list-menu1"><a href="#theMetaverse"><span id="theMetaverse_span"
+                                    class="faqs_menu_span">The
+                                    Metaverse</span></a>
+                        </span>
+                        <span class="list-menu1"><a href="#tokens"><span id="tokens_span"
+                                    class="faqs_menu_span">Tokens</span></a>
+                        </span>
+                        <span class="list-menu1"><a href="#lands"><span id="lands_span"
+                                    class="faqs_menu_span">LAND’s</span></a>
+                        </span>
+                    </div>
+                </div>
+                <hr id="hr-line" class="hr-style margin-xy-25">
+                <div id="container-section-faqs" class="container-section-faqs">
+
+                    <div id="gamium" class="modal_press_container-1 modal_press_container-2">
+                        <div class="style-width-modal-content" style="padding-top:20px;padding-bottom: 20px;"> <span
+                                class="modal_press_span-1"><template>faqs.nav_bar.nav_bar_element_1</template><span></span>
+                            </span>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="accordion-wrp-1">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_0.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_0.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_1.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_1.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_2.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_2.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_2.text_2</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_3.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_3.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_3.text_2</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_3.text_3</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_4.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_4.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_4.text_2</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_4.text_3</template><span></span>
+                                    </span>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_4.text_4</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_5.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_5.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_6.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_6.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_7.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_7.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_8.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_8.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_9.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_9.text_1</template><span></span>
+                                    </p>
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_9.text_2</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_10.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_1.faq_10.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_1.faq_11.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_11.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_11.text_2</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_11.text_3</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_1.faq_11.text_4</template><span></span>
+                                    </span>
+                                    </br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="theAvatar" class="modal_press_container-1">
+                        <div class="style-width-modal-content" style="padding-top:20px;padding-bottom: 20px;">
+                            <span
+                                class="modal_press_span-1"><template>faqs.nav_bar.nav_bar_element_2</template><span></span>
+                            </span>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="accordion-wrp-1">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_1.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_1.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_2.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_2.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_3.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_3.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_4.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_4.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_4.text_2</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_5.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_5.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_6.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_6.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_7.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_7.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_8.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_8.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_9.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_2.faq_9.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_2.faq_10.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_10.text_1</template><span></span>
+                                    </span>
+                                    </br></br>
+                                    <span>
+                                        <template>faqs.faqs_body.element_2.faq_10.text_2</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="theMetaverse" class="modal_press_container-1">
+                        <div class="style-width-modal-content" style="padding-top:20px;padding-bottom: 20px;">
+                            <span
+                                class="modal_press_span-1"><template>faqs.nav_bar.nav_bar_element_3</template><span></span>
+                            </span>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="accordion-wrp-1">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_1.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_1.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_2.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_2.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_3.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_3.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_4.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_4.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_5.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_5.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_6.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_6.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_7.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_7.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_8.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_8.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_9.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_3.faq_9.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_10.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_10.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_11.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_11.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_3.faq_12.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_3.faq_12.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tokens" class="modal_press_container-1">
+                        <div class="style-width-modal-content" style="padding-top:20px;padding-bottom: 20px;">
+                            <span
+                                class="modal_press_span-1"><template>faqs.nav_bar.nav_bar_element_4</template><span></span>
+                            </span>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="accordion-wrp-1">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_1.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_1.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_1.text_2</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_1.text_3</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_2.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_2.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_2.text_2</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_2.text_3</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_2.text_4</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_3.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_2</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_3</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_4</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_5</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_3.text_6</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_4.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_4.faq_4.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_5.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_2</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_3</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_4</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_5</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_6</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_5.text_7</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_6.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_6.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_7.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_7.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_8.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_8.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_9.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_4.faq_9.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_10.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="././images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_4.faq_10.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_11.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_4.faq_11.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_12.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_4.faq_12.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_4.faq_13.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_4.faq_13.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lands" class="modal_press_container-1" style="padding-bottom: 50px;">
+                        <div class="style-width-modal-content" style="padding-top:20px;padding-bottom: 20px;">
+                            <span
+                                class="modal_press_span-1"><template>faqs.nav_bar.nav_bar_element_5</template><span></span>
+                            </span>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="accordion-wrp-1">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_1.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_1.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_2.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_5.faq_2.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_3.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_5.faq_3.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion">
+                                    <span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_4.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <span>
+                                        <template>faqs.faqs_body.element_5.faq_4.text_1</template><span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_5.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_5.text_1</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_6.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_2</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_3</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_4</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_5</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_6.text_6</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-wrp">
+                                <div class="accordion"><span
+                                        class="modal_press_span-1"><template>faqs.faqs_body.element_5.faq_7.title</template><span></span></span>
+                                    <img class="arrow_accordion_img" src="./images/arrow_faq_down.svg" alt="">
+                                </div>
+                                <div class="panel" style="margin-top: 15px;">
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_7.text_1</template><span></span>
+                                    </p>
+                                    <p>
+                                        <template>faqs.faqs_body.element_5.faq_7.text_2</template><span></span>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-section-footer">
+                    <hr class="hr-style">
+                    <div class="menu-footer-wrapper">
+                        <div class="full-with-100">
+                            © 2021 - Gamium Inc
+                        </div>
+                        <div class="full-with-100 centerFooterMenu">
+                            <a class="d-flex d-flex-a" target="_blank" href="https://www.instagram.com/gamiumcorp/">
+                                <ion-icon class="sidebar-logo" name="logo-instagram"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://twitter.com/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://discord.gg/eJZw3ASNh5">
+                                <ion-icon class="sidebar-logo" name="logo-discord"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://t.me/gamiumcorp">
+                                <ion-icon class="sidebar-logo" name="paper-plane"></ion-icon>
+                            </a>
+                            <a class="d-flex" target="_blank" href="https://medium.com/@gamium">
+                                <ion-icon class="sidebar-logo" name="logo-medium"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="full-with-100 right">
+                            <a href="mailto:info@gamium.world">info@gamium.world</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation End -->
+
+    <!-- Loading Overlay -->
+
+    <div id="loadingOverlay">
+        <video id="loaderAnim" src="videos/loader.mp4" loop="true" muted="true" autoplay="true" preload="auto"
+            playsinline="true"></video>
+    </div>
+
+    <!-- Loading Overlay End -->
+
+    <!-- Slide Alpha 0 -->
+
+    <div id="slide_alpha_0">
+        <video id="loadingAnim" src="videos/loading_gamium.mp4" autoplay="true" muted="false" preload="auto"
+            playsinline="true" loop="false"></video>
+    </div>
+
+    <!-- Slide Alpha 0 End -->
+
+    <!-- Intro Content -->
+
+    <div id="ani_content">
+        <div id="ani_overlay" class="ani_overlay">
+            <div class="body">
+                <div class="bubble bubble1">
+                    <div class="text"></div>
+                </div>
+                <div class="bubble bubble2">
+                    <div class="text"></div>
+                </div>
+                <div class="bubble bubble3">
+                    <div class="text text3"></div>
+                </div>
+                <div class="pic hi hi_1"></div>
+                <div class="pic hi hi_2"></div>
+                <div class="pic hi hi_3"></div>
+            </div>
+        </div>
+
+        <!--     <div id="ani_controls_mobile" class="ani_controls_mobile" style="display: none;">
+            <div id="id_slice_down" class="scroll_icon down">Slice down <br> <div class="purple-bar"></div></div>
+        </div> -->
+
+        <div id="ani_controls" class="ani_controls">
+            <div id="id_slice_down" class="scroll_icon down"><span
+                    class="span-slice-down"><template>ani_controls.slide_down</template><span></span> <br>
+                    <div class="purple-bar"></div>
+                </span></div>
+            <div id="id_page_down" class="scroll_icon down"><template>ani_controls.scroll_down</template><span></span>
+                <br>
+                <div class="purple-bar"></div>
+            </div>
+            <div id="page_indicator" class="page_indicator"></div>
+        </div>
+
+        <div id="follower">
+            <div id="click-me-1"> <template>slide_1.clickme_1</template><span></span></div>
+            <img src="./images/a-clickme.svg" class="clickme">
+            <div id="click-me-2"> <template>slide_1.clickme_2</template><span></span></div>
+        </div>
+
+        <div id="ani_slide_1" class="ani_slide">
+            <div id="ani_text_1" class="ani_text">
+                <h1 class="headline"><template>slide_1.headline_1</template><span></span></h1>
+                <div class="copy"><template>slide_1.copy_1</template><span></span></div>
+                <a href="https://whitepaper.gamium.world/" target="_blank"><button
+                        id="id_btn_whitepaper"><template>slide_1.button_1</template><span></span></button></a>
+            </div>
+
+            <div class="hero">
+                <video id="video-hero" class="video-hero" style="z-index: -2;" loop="true" muted="true" preload="auto"
+                    playsinline="true" autoplay>
+                    <source src="./videos/atom_galaxy.mp4" type="video/mp4" />
+                </video>
+                <div id="seek-area" class="seek-area">
+                    <div id="sl1-click-me" class="sl1-click-me">
+                        <div id="click-me-1"> <template>slide_1.clickme_1</template><span></span></div>
+                        <img src="./images/a-clickme.svg" class="clickme">
+                        <div id="click-me-2"> <template>slide_1.clickme_2</template><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ani_slide_2" class="ani_slide">
+            <div id="ani_text_1" class="ani_text">
+                <h1 class="headline"><template>slide_2.headline_1</template><span></span></h1>
+                <div class="copy"><template>slide_2.copy_1</template><span></span></div>
+                <a href="https://whitepaper.gamium.world/gamium-metaverse/the-decentralized-social-metaverse"
+                    target="_blank"><button
+                        id="button_1"><template>slide_2.button_1</template><span></span></button></a>
+            </div>
+            <div class="vid">
+                <div id="slider">
+                    <input type="radio" name="slider" id="s1">
+                    <input type="radio" name="slider" id="s2">
+                    <input type="radio" name="slider" id="s3" checked>
+                    <input type="radio" name="slider" id="s4">
+                    <input type="radio" name="slider" id="s5">
+                    <label for="s1" id="slide1"><img src="./images/carousel_2.jpg"></label>
+                    <label for="s2" id="slide2"><img src="./images/carousel_3.jpg"></label>
+                    <label for="s3" id="slide3"><img src="./images/carousel_1.jpg"></label>
+                    <label for="s4" id="slide4"><img src="./images/carousel_2.jpg"></label>
+                    <label for="s5" id="slide5"><img src="./images/carousel_3.jpg"></label>
+                </div>
+            </div>
+        </div>
+
+        <div id="ani_slide_3" class="ani_slide">
+            <!--<div id="video-wrapper" class="video-wrapper">
+                <video width="100%" height="100%" autoplay loop muted playsinline>
+                <source src="videos/particles.mov" type='video/mp4; codecs="hvc1"'>
+                <source src="videos/particles.webm" type="video/webm">
+                </video>
+            </div>-->
+            <div id="ani_text_1" class="ani_text">
+                <h1 class="headline"><template>slide_3.headline_1</template><span></span></h1>
+                <div class="copy"><template>slide_3.copy_1</template><span></span></div>
+                <a href="https://whitepaper.gamium.world/gamium-the-avatar/what-is-an-avatar" target="_blank"><button
+                        id="button_1"><template>slide_3.button_1</template><span></span></button></a>
+            </div>
+
+            <div id="ani_text_2" class="ani_text">
+                <h1 class="headline"><template>slide_3.headline_2</template><span></span></h1>
+                <div class="copy"><template>slide_3.copy_2</template><span></span></div>
+                <a href="https://whitepaper.gamium.world/gamium-the-avatar/how-do-i-mint-my-avatar"
+                    target="_blank"><button><template>slide_3.button_2</template><span></span></button></a>
+            </div>
+            <div class="vid" style="z-index: -1;">
+                <video src="./videos/particle_avatar.mp4" autoplay="true" loop="true" muted="true" preload="auto"
+                    playsinline="true"></video>
+            </div>
+            <div class="vid_2" style="z-index: -1;">
+                <video src="./videos/smoke_avatar (online-video-cutter.com).mp4" autoplay="true" loop="true" muted="true" preload="auto"
+                    playsinline="true"></video>
+            </div>
+        </div>
+
+        <div id="ani_slide_4" class="ani_slide">
+            <div id="ani_text_1" class="ani_text">
+                <h1 class="headline"><template>slide_4.headline_1</template><span></span></h1>
+                <div class="copy"><template>slide_4.copy_1</template><span></span></div>
+                <!--<button id="button_1"><template>slide_4.button_1</template><span></span></button>-->
+            </div>
+            <div id="ani_text_2" class="ani_text">
+                <h1 class="headline"><template>slide_4.headline_2</template><span></span></h1>
+                <div class="copy"><template>slide_4.copy_2</template><span></span></div>
+                <a href="https://whitepaper.gamium.world/gamium-metaverse/buildings/genesis-buildings"
+                    target="_blank"><button
+                        id="button_2"><template>slide_4.button_2</template><span></span></button></a>
+            </div>
+            <div id="cube-video-wrapper" class="vid">
+                <video id="cube-video" src="./videos/cubes.mov" autoplay="false" muted="true" preload="auto"
+                    playsinline="true"></video>
+            </div>
+
+            <div id="videos-avatar-wrapper">
+                <video id="cube-avatars" src="./videos/cube_avatars.mp4" autoplay="false" muted="true" preload="auto"
+                    playsinline="true"></video>
+            </div>
+        </div>
+
+        <div id="ani_slide_5" class="ani_slide">
+            <div id="ani_text_1" class="ani_text">
+                <h1 class="headline"><template>slide_5.headline_1</template><span></span></h1>
+                <div class="copy"><template>slide_5.copy_1</template><span></span></div>
+                <a href="pdf/tokenomics.pdf" target="_blank"><button
+                        id="button_1"><template>slide_5.button_1</template><span></span></button></a>
+            </div>
+            <div class="vid">
+                <video class="vid-5" src="./videos/coin.mp4" loop="true" muted="true" preload="auto"
+                    playsinline="true"></video>
+            </div>
+        </div>
+
+
+        <div id="content-footer">
+            <hr class="hr-style">
+            <div id="footer_container">
+                <div class="full-with-100">
+                    <a href="mailto:info@gamium.world">info@gamium.world</a>
+                </div>
+                <div id="centerFooter" class="full-with-100 centerFooter">
+                    <a class="footer-d-flex d-flex-a" target="_blank" href="https://www.instagram.com/gamiumcorp/">
+                        <ion-icon class="sidebar-logo" name="logo-instagram"></ion-icon>
+                    </a>
+                    <a class="footer-d-flex" target="_blank" href="https://twitter.com/gamiumcorp">
+                        <ion-icon class="sidebar-logo" name="logo-twitter"></ion-icon>
+                    </a>
+                    <a class="footer-d-flex" target="_blank" href="https://discord.gg/eJZw3ASNh5">
+                        <ion-icon class="sidebar-logo" name="logo-discord"></ion-icon>
+                    </a>
+                    <a class="footer-d-flex" target="_blank" href="https://t.me/gamiumcorp">
+                        <ion-icon class="sidebar-logo" name="paper-plane"></ion-icon>
+                    </a>
+                    <a class="footer-d-flex" target="_blank" href="https://medium.com/@gamium">
+                        <ion-icon class="sidebar-logo" name="logo-medium"></ion-icon>
+                    </a>
+                </div>
+                <div class="full-with-100 right">
+                    <div id="change-lang-footer" class="menu-language-footer">
+                        <span id="id-lang-name-footer">En</span>
+                        <ion-icon name="caret-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function (event) {
+                let lang = localStorage.getItem("language");
+                document.getElementById("id-lang-name").textContent = lang === "es" ? "Es" : "En";
+                document.getElementById("id-lang-name-footer").textContent = lang === "es" ? "Es" : "En";
+                main.init(lang ? lang : "en", website.triggers);
+                website.init(lang ? lang : "en");
+
+            });
+
+        </script>
+
+        <script defer src="js/pointerFollow.js"></script>
+        <script defer src="js/envio-forms.js"></script>
+        <script defer src="js/accordion.js"></script>
+
+
+</body>
+
+</html>

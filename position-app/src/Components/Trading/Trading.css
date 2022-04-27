@@ -1,0 +1,267 @@
+.css-1n1rwjg {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.css-x61b8m {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -5%;
+    left: -10%;
+    width: 100%;
+}
+@media screen and (min-width: 80em)
+{
+.css-x61b8m,.css-n2svew  {
+    display: none;
+}
+}
+.css-n2svew {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -5%;
+    left: 0px;
+    width: 100%;
+}
+.css-1wl22v7 {
+    /* display: none; */
+    position: absolute;
+    z-index: -1;
+    top: -4%;
+    right: 0px;
+    width: 100%;
+}
+@media screen and (min-width: 80em)
+{
+.css-1wl22v7 {
+    display: block;
+    top: -4%;
+}
+
+.css-111bnrr {
+    display: block;
+    top: -9%;
+}
+}
+.css-111bnrr {
+    position: absolute;
+    z-index: -1;
+    top: -9%;
+    width: 100%;
+}
+.css-1x1v05p {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.css-1cmq4yq {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background-image: url('../../.././public/img/landing-on-chain-trading-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    padding-top: 54px;
+    padding-bottom: 79px;
+    position: relative;
+}
+.css-1dh58gp {
+    width: 33px;
+    height: 33px;
+    display: none;
+    border-radius: 50%;
+    border: 8px solid rgb(167, 230, 210);
+    position: absolute;
+    right: 9%;
+    top: 13%;
+}
+.css-lky6is {
+    width: 33px;
+    height: 33px;
+    display: none;
+    border-radius: 50%;
+    border: 8px solid rgb(167, 230, 210);
+    position: absolute;
+    left: 7%;
+    top: 81%;
+}
+.css-191ef0o {
+    width: 33px;
+    height: 33px;
+    display: none;
+    border-radius: 50%;
+    border: 8px solid rgb(167, 230, 210);
+    position: absolute;
+    right: 9%;
+    top: 80%;
+}
+.css-1brzv32 {
+    color: rgb(23, 25, 35);
+    font-weight: 700;
+    font-size: 5rem;
+}
+.css-1xladu5 {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-inline: 142px;
+    margin-top: 10px;
+}
+.css-1rzi3ol {
+    font-weight: 500;
+    color: rgb(113, 128, 150);
+    font-size: 26px;
+    text-align: center;
+    margin-inline: 26px;
+    margin-top: 40px;
+    max-width: 917px;
+}
+.css-rbt7fo {
+    font-weight: 500;
+    color:#1ac486;
+    font-size: 25px;
+    margin-top: 9px;
+}
+.css-ppca6b {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 409px;
+    line-height: 1.2;
+    border-radius: 12px;
+    font-weight: 500;
+    height: 74px;
+    min-width: 3.5rem;
+    font-size: 25px;
+    padding-inline-start: 1rem;
+    padding-inline-end:1rem;
+    background:#1ac486;
+    color: #fff;
+    margin-top: 24px;
+    border: none;
+}
+.css-ppca6b:hover,.css-ppca6b[data-hover]{
+    background: #38A169;
+}
+@media screen and (min-width: 80em)
+{
+.css-1dh58gp {
+    display: block;
+}
+}
+@media screen and (min-width: 80em)
+{
+.css-1cmq4yq {
+    background-image: url('../../.././public/img/landing-on-chain-trading-1.svg');
+    padding-top: 150px;
+    padding-bottom: 145px;
+}
+}
+@media screen and (min-width: 62em)
+{
+
+    .css-1cmq4yq {
+        background-image: url('../../.././public/img/landing-on-chain-trading-2.svg');
+        padding-top: 107px;
+        padding-bottom: 145px;
+    }
+}
+@media screen and (min-width: 48em)
+{
+
+    .css-1cmq4yq {
+        background-image: url('../../.././public/img/landing-on-chain-trading-2.svg');
+        padding-top: 107px;
+        padding-bottom: 145px;
+    }
+}
+
+@media screen and (min-width: 30em)
+{
+.css-1cmq4yq {
+    background-image: url('../../.././public/img/landing-on-chain-trading-2.svg');
+    padding-top: 75px;
+    padding-bottom: 79px;
+}
+}
+
+.css-1cmq4yq {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background-image: url('../../.././public/img/landing-on-chain-trading-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    padding-top: 54px;
+    padding-bottom: 79px;
+    position: relative;
+}
+@media screen and (min-width: 80em)
+{
+.css-lky6is {
+    display: block;
+}
+}
+@media screen and (min-width: 80em)
+{
+.css-191ef0o {
+    display: block;
+}
+}
+@media screen and (max-width: 600px){
+    .css-1brzv32{
+        width: 314px;
+    font-size: 30px;
+    margin-right: 66px;
+
+    }
+    .css-1n1rwjg{
+        position: absolute;
+        top: 176%;
+    }
+    .css-1xladu5 {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 86%;
+        padding-inline: 24px;
+       
+    }
+    .css-ppca6b{
+        width: 158px;
+        height: 58px;
+        border-radius: 22px;
+        font-size: 21px;
+    }
+    .css-1rzi3ol{
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 40px;
+        max-width: 636px;
+    }
+}

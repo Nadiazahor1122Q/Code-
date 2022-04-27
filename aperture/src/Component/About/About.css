@@ -1,0 +1,51 @@
+
+#about {
+    padding: 2rem 0px 0px;
+}
+.padding {
+    padding: 4.25rem 0px;
+}
+
+#about .teamContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.textContainer {
+    width: 1288px;
+    margin: auto;
+}
+#about .teamClass {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 333px !important;
+}
+#about .teamClass > img {
+    width: 115px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#about .teamClass p {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.375px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+#about .teamClass a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+#about .teamClass a img {
+    margin-left: 0.5rem;
+    width: 32px;
+    height: 32px;
+}

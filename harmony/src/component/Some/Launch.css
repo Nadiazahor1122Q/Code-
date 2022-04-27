@@ -1,0 +1,71 @@
+
+
+#home .banner-heading {
+    font-size: 3rem;
+    line-height: 2.6rem;
+  }
+
+  a.btn-neo:link {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #16181a, #131416);
+    box-shadow: 5px 5px 10px #0b0c0d, -5px -5px 10px #1f2023;
+    text-decoration: none;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -0.5px;
+    color: #fff;
+  }
+  div#home {
+    background: url('../../hand.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  div#home .row{
+  margin-top:-160px !important;    
+  }
+
+  p.banner-description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #929292;
+    padding-bottom: 20px;
+  }
+  #font{
+      font-size: 33px;
+  }
+  .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    color: #fff;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}

@@ -1,0 +1,17 @@
+
+.logo-section img {
+    width: 100%;
+    max-width: 160px;
+  }
+  
+  .logo-section a {
+    padding: 10px 5px;
+    display: block;
+  }
+  
+  .logo-section .banner-heading {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 84px;
+  }
+  

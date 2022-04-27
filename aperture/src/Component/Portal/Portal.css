@@ -1,0 +1,132 @@
+
+#value {
+    position: relative;
+    z-index: 1;
+}
+
+
+.padding {
+    padding: 4.25rem 0px;
+}
+
+.textContainer {
+    width: 1075px;
+    margin: auto;
+}
+.celestialImg {
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.celestialImg img {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 50vw;
+    height: auto;
+    max-width: 1125px;
+}
+.css-8rnkcc {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.celestialImg::before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url('./oval.6fd2f176.webp');
+    background-size: 23vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: -14.5px;
+    left: -7px;
+    z-index: -5;
+    animation-name: celestial-animate;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#value .textContainer .gridItem h3 {
+    font-size: 20px;
+    margin-bottom: 0rem;
+    line-height: 28px;
+}
+#value .textContainer .gridItem ul {
+    list-style: none;
+    padding: 0px;
+}
+#value .textContainer .value1 {
+    left: -6.5%;
+    margin-top: 16%;
+}
+#value .textContainer .gridItem {
+    position: absolute;
+    white-space: pre-line;
+    z-index: 1;
+    top: 0px;
+    width: 290px !important;
+}
+@media (min-width: 900px)
+{
+#value .textContainer .MuiGrid-root:nth-child(2n) .gridItem {
+    margin-left: auto;
+}
+}
+
+#value .textContainer .value2 {
+    top: 23%;
+    right: -10%;
+}
+
+
+#value .textContainer .gridItem li {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(176, 181, 196);
+    margin-bottom: 0.5rem;
+}
+@media (min-width: 900px)
+{
+.css-1ekasd5 {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+}
+}
+
+.css-1ekasd5 {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+#value .textContainer .value3 {
+    top: 55%;
+    left: -5.5%;
+}
+@media (min-width: 900px)
+{
+#value .textContainer .MuiGrid-root:nth-child(2n) .gridItem {
+    margin-left: auto;
+}
+}
+
+
+#value .textContainer .value4 {
+    top: 55%;
+    right: -10%;
+}

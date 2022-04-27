@@ -1,0 +1,253 @@
+.css-hboir5 {
+    display: flex;
+    width: 100%;
+}
+.css-1inno6b {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-top: 30px;
+    width: 100%;
+}
+.css-1914ytn {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.css-il7sii {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.css-j7qwjs {
+    display: flex;
+    flex-direction: column;
+}
+#posi{
+    margin-top: -92px;
+}
+.css-19f5yew {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:700;
+    font-size: 91px;
+    margin-top: 0px;
+}
+.css-k008qs {
+    display: flex;
+}
+
+.css-1gemzg3 {
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+}
+.css-1nf5nps {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:400;
+    font-size: 31px;
+    color: rgb(113, 128, 150);
+    margin-top: -79px;
+}
+.css-9r9834 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 50%;
+    box-shadow: rgb(189 207 226) 0px 4px 42px;
+    background: var(--chakra-colors-white);
+    border-radius: 24px;
+    height: 194px;
+    padding-left: 5%;
+}
+.css-1fcsmgl {
+    display: flex;
+    margin-bottom: -40px;
+}
+.css-3715fg {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    color: rgb(23, 25, 35);
+}
+.css-k008qs {
+    display: flex;
+}
+.css-1y036vo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #1AC486;
+}
+.css-1y036vo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #1AC486;
+}
+.css-1f8h9z4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.css-hboir5 {
+    display: flex;
+    width: 100%;
+}
+.css-yqq6qs {
+    display: grid;
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    width: 90%;
+    margin: auto;
+}
+.css-p8glk8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 24px;
+    height: 371px;
+    box-shadow: rgb(205 218 231) 0px 4px 60px;
+}
+.css-12ptrj {
+    display: flex;
+    margin: auto;
+}
+.css-12lpo47 {
+    margin-top: 45px;
+    height: 200px;
+}
+.css-2q7j0z {
+    margin-top: 10px;
+    color: rgb(113, 128, 150);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.css-1uyww4a {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.css-1d4utoq {
+    display: flex;
+    width: 47%;
+    margin-bottom: 200px;
+}
+.css-6b1vig{
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 292px;
+    line-height: 1.2;
+    border-radius: 16px;
+    font-weight: 500;
+    transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    height: 44px;
+    min-width: 2.5rem;
+    font-size:1rem;
+    padding-inline-start:1rem;
+    padding-inline-end:1rem;
+    background: #1AC486;
+    margin-inline: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fff;
+    border: none;
+}
+.css-2a57wj {
+    margin-top: 10px;
+    margin-bottom: 46px;
+    color: rgb(23, 25, 35);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: -20px;
+
+}
+.css-1cbbtk2{
+    display: none;
+}
+@media screen and (max-width: 600px){
+
+    .css-1inno6b{
+        position: absolute;
+        top: 904%;
+    }
+    .css-1wrpzpl{
+        margin-top: 60%;
+    }
+ 
+    .css-19f5yew {
+   display: none;
+    }
+    .css-9r9834 {
+        margin-top: 72%;
+        margin-left: -161px;
+        width: 85%;
+    }
+    .css-yqq6qs{
+        display: inline-block;
+        margin-top: -130%;
+    }
+    #css-p8glk8{
+        position: relative;
+    top: -27px;
+    }
+    #holders
+    {
+        margin-top: 33px;
+
+    }
+    .css-1cbbtk2 {
+        display: block;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: rgb(23, 25, 35);
+        position: absolute;
+        top: 0%;
+        right: 20px;
+        width: 86%;
+    
+    }
+    .css-1gemzg3 {
+        display: flex;
+        width: 349px;
+        margin-top: 230%;
+    }
+    .css-1nf5nps{
+        font-size: 20px;
+        margin-top: -284px;
+        margin-left: 15px;
+    }
+    .css-3715fg{
+           font-size: 23px;
+ }
+    .css-2a57wj{
+        font-size: 14px;
+    }
+    .css-1y036vo{
+        font-size:35px ;
+    }
+}

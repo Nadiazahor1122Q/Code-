@@ -1,0 +1,348 @@
+@media screen and (min-width: 48em) {
+  .css-1ymyi8 {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 30em) {
+  .css-1ymyi8 {
+    flex-direction: column-reverse;
+    --chakra-space-y-reverse: 1;
+    --chakra-divide-y-reverse: 1;
+  }
+}
+@media screen and (min-width: 30em)
+{
+.css-177f0xs {
+    margin-top: 50px;
+}
+}
+
+.css-177f0xs {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 40px;
+
+}
+.css-1ymyi8 {
+  display: flex;
+  flex-direction: column-reverse;
+  --chakra-space-y-reverse: 1;
+  --chakra-divide-y-reverse: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (min-width: 48em) {
+  .css-1tetxn {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 30em) {
+  .css-1tetxn {
+    width: 100%;
+  }
+}
+
+.css-1tetxn {
+  width: 100%;
+}
+/* .css-270x0e {
+  position: relative;
+  top: -692px;
+} */
+@media screen and (min-width: 80em) {
+  .css-1buekl6 {
+    margin-left: 52px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .css-1buekl6 {
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 48em) {
+  .css-1buekl6 {
+    text-align: start;
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 30em) {
+  .css-1buekl6 {
+    text-align: center;
+    margin-left: 16px;
+  }
+}
+
+.css-1buekl6 {
+  text-align: center;
+  width: 100%;
+  margin-left: 8px;
+}
+@media screen and (min-width: 30em) {
+  .css-17h59v9 {
+    font-size: 20px;
+  }
+}
+.css-17h59v9 {
+  font-size: 31px;
+  font-weight: 500;
+  color: #1ac486;
+  letter-spacing: 4px;
+  margin-left: 14%;
+  position: absolute;
+  top: 70px;
+}
+@media screen and (min-width: 62em) {
+  .css-prk6ch {
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-prk6ch {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 30em) {
+  .css-prk6ch {
+    font-size: 28px;
+  }
+}
+
+.css-prk6ch {
+  display: flex;
+  font-weight: 700;
+  font-size: 85px;
+  color: #fff;
+  margin-left: 14%;
+  position: absolute;
+  top: 68px;
+  width: 42%;
+}
+@media screen and (min-width: 80em) {
+  .css-1ysf78c {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 62em) {
+  .css-1ysf78c {
+    margin-left: 8px;
+  }
+}
+@media screen and (min-width: 48em) {
+  .css-1ysf78c {
+    margin-left: 8px;
+  }
+}
+@media screen and (min-width: 30em) {
+  .css-1ysf78c {
+    margin-left: 0px;
+  }
+}
+
+.css-1ysf78c {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0px;
+}
+@media screen and (min-width: 48em) {
+  .css-a5gf7c {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 30em) {
+  .css-a5gf7c {
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 90%;
+  }
+}
+.css-a5gf7c {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 57%;
+}
+.css-a5gf7c {
+  position: absolute;
+  top: 47%;
+  right: 42%;
+}
+@media screen and (min-width: 80em)
+{
+.css-xm1q5y {
+    margin-left: 52px;
+}
+}
+@media screen and (min-width: 62em)
+{
+.css-xm1q5y {
+    margin-left: 24px;
+}
+}
+@media screen and (min-width: 48em)
+{
+.css-xm1q5y {
+    text-align: start;
+    margin-left: 24px;
+    margin-right: 0px;
+}
+
+}
+@media screen and (min-width: 30em)
+{
+.css-xm1q5y {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+}
+.css-xm1q5y {
+    font-size: 27px;
+    color: #A0AEC0;
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    width: 44%;
+    left: 8%;
+}
+
+.css-qjpgu9 {
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 18px;
+    line-height: 1.2;
+    border-radius: 20px;
+    font-weight: 600;
+    height: 62px;
+    min-width: 17.5rem;
+    font-size: 20px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background: transparent;
+    color: #1ac486;
+    border: 2px solid #1ac486;
+    top: -768px;
+    left: 13%;
+}
+
+.css-jpxj4s {
+    display: flex;
+    width: 48%;
+    z-index: 20;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.css-bwfc1h {
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: 20px;
+    font-weight: 600;
+    height: 62px;
+    min-width: 18.5rem;
+    font-size: 23px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background: #1ac486;
+    color: #fff;
+    border: 2px solid;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top:-852px;
+    left: 83%;
+}
+.css-bwfc1h:hover,.css-bwfc1h[data-hover]{
+  background: #38A169;
+}
+.css-psah9x {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 784px;
+    z-index: 0;
+    position: relative;
+    top: -689px;
+}
+@media screen and (min-width: 62em)
+{
+.css-psah9x {
+    width: 100%;
+}
+}
+.css-q50xov{
+    width: 1202px;
+    margin-left: 49%;
+
+}
+#mobile{
+  display: none;
+}
+@media screen and (max-width: 600px){
+  
+  .css-psah9x {
+    height: 321px;
+    position: absolute;
+    top: 154px;
+    left: -59px;
+  }
+  .css-17h59v9{
+    margin-top: 108%;
+    font-size: 25px;
+  }
+  .css-prk6ch,#css-a5gf7c,.css-15tnlkm{
+    display: none;
+  }
+ 
+  #mobile{
+    display: block;
+    margin-top:101px;
+    margin-left: 167px;
+    min-width: 362px;
+  }
+  .css-xm1q5y{
+    width: 336px;
+    margin-top: -14%;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .css-qjpgu9{
+    margin-top:173%;
+    min-width: 1.5rem;
+    margin-left: -30px;
+  }
+  .css-bwfc1h{
+    margin-top: 11%;
+    min-width: 9.5rem;
+    margin-left: 54px;
+  }
+}

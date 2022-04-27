@@ -1,0 +1,306 @@
+.css-1sjozv0 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(68, 81, 165);
+    position: relative;
+    z-index: 9;
+}
+.css-1m5ol03 {
+    width: 100%;
+    position: absolute;
+    top: -1px;
+}
+.css-1wrpzpl {
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    margin-inline: auto;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    padding-inline: 10px;
+}
+@media screen and (min-width: 80em)
+{
+.css-1wrpzpl {
+    max-width: 90%;
+    padding-inline: 10px;
+}
+}
+.css-fjn4fn {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 19px;
+}
+.css-1bysa3b {
+    text-align: left;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (min-width: 80em)
+{
+.css-1bysa3b {
+    width: 75%;
+    font-size: 36px;
+}
+}
+.css-12fgzb1 {
+    text-align: left;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    color: #A0AEC0;
+    font-size: 17px;
+}
+@media screen and (min-width: 80em)
+{
+.css-12fgzb1 {
+    width: 75%;
+}
+}
+.css-ffimpb {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-inline: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+    background:#1AC486;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 250px;
+}
+
+@media screen and (min-width: 62em)
+{
+.css-ffimpb {
+    width: 292px;
+}
+}
+
+.css-11lhwve {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 20%;
+}
+.css-17xejub {
+    flex: 1 1 0%;
+    place-self: stretch;
+}
+.css-1hbj5v0 {
+    width: 75%;
+}
+.css-53whmz {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 24px;
+    padding-inline: 20px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A0AEC0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 250px;
+}
+@media screen and (min-width: 62em)
+{
+.css-53whmz {
+    width: 292px;
+}
+}
+.css-11lhwve {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.css-ldihrc {
+    margin-inline: auto;
+}
+.css-1hbj5v0 {
+    width: 75%;
+}
+.css-i31zha {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+.css-1tm9roc {
+    z-index: 99;
+    position: absolute;
+}
+.css-ea0pfj {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background:transparent;
+    border-radius: 16px;
+}
+.css-1shh6lp {
+    display: none;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-bottom: 140px;
+    width: 50%;
+    font-size: 16px;
+}
+.css-1m6hi68 {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 292px;
+    line-height: 1.2;
+    border-radius: 16px;
+    font-weight: 500;
+    transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    height: 44px;
+    min-width: 2.5rem;
+    font-size:1rem;
+    padding-inline-start:1rem;
+    padding-inline-end:1rem;
+    background: #1AC486;
+    margin-inline: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fff;
+}
+.css-8eq436 {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 20%;
+}
+.css-1w4782p {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 292px;
+    line-height: 1.2;
+    border-radius: 16px;
+    font-weight: 500;
+    transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    height: 44px;
+    min-width: 2.5rem;
+    font-size:1rem;
+    padding-inline-start:1rem;
+    padding-inline-end: 1rem;
+    background: #fff;
+    margin-inline: auto;
+    margin-top: 24px;
+    color: #A0AEC0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.css-1uowy7d {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10px;
+    text-align: left;
+}
+.css-6aw7rj {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+}
+.css-hboir5 {
+    display: flex;
+    width: 100%;
+}
+.css-ffimpb:active, .css-ffimpb[data-active] {
+    background:#38A169;
+}
+
+.css-53whmz:hover,.css-53whmz[data-hover] {
+    background:#1AC486;
+    color:#fff;
+}
+@media screen and (max-width: 600px){
+    .css-1sjozv0{
+        position: absolute;
+        top: 740%;
+        height: 1399px;
+    }
+    .css-1bysa3b{
+        width: 317px;
+        margin-left: 45px;
+        margin-top: 39px;
+        font-size: 34px;
+    }
+    .css-12fgzb1{
+        width: 325px;
+        margin-left: 41px;
+        margin-top: -6px;
+        font-size: 18px;
+    }
+    .video-bg {
+        margin-left: 2px;
+        margin-top: 35px;
+    }
+    .size-image {
+        /* width: 450px!important;
+        height: 480px!important; */
+        min-width: 450px;
+        margin-left: -131px;
+    }
+    .css-6aw7rj {
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+    }
+    
+    .css-i31zha{
+        position: absolute;
+        margin-top: 92%;
+        margin-left: 69px;
+    }
+    .moblie{
+        display: block;
+    }
+    .css-ffimpb{
+        margin-top:253%;
+    }
+    
+}

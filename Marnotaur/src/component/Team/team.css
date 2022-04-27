@@ -1,0 +1,156 @@
+.carusal {
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+  }
+  .react-multi-carousel-dot-list{
+    bottom: 90px;
+  }
+
+  .text {
+    margin-top: 10px;
+  }
+  #linked{
+      position: relative;
+      top: -91px;
+      left: 60%;
+  }
+  #role{
+    position: relative;
+    top: -56px;
+    color: #fff;
+    font-size: 17px;
+    left: 5%;
+  }
+  #linked-1{
+
+    position: relative;
+    top: -162px;
+    left: 265%;
+
+}
+#I{
+    position: relative;
+    top: -87px;
+    left: 246%;
+}
+  .text span {
+    /* margin-left: 5%;
+    border: 2px solid sienna;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: red; */
+    font-size: 13px;
+  
+  }
+  .slides-text {
+    margin: 13px 14px;
+    color: #fff;
+  }
+  
+  .icon-1 {
+    margin-top: 13%;
+    display: flex;
+    margin-left: 10%;
+    color: #fff;
+  }
+  
+  .icon-2 {
+    color: #fff;
+    margin-left: 22%;
+  }
+  .color {
+    z-index: 0;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      #08273D 0%,
+      #fff0 30%,
+      #fff0 70%,
+      #08273D 100%
+    );
+  }
+  #block{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 12%;
+  }
+  .react-multiple-carousel__arrow{
+      /* display: none; */
+  }
+
+  /* .react-multi-carousel-list {
+    display: list-item;
+  } */
+  
+  .slides {
+    max-width: 250px;
+    min-height: 300px;
+    background: #08273D;
+    border-radius: 20px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  .slides-img img {
+    width: 100%;
+    height: 160px;
+    border-radius: 9px 9px 9px 9px;
+    background-size: cover;
+  }
+  .text {
+    margin-top: 10px;
+  }
+  .text span {
+    margin-left: 5%;
+    border: 2px solid sienna;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: red;
+    font-size: 10px;
+  
+  }
+  .slides-text {
+    margin: 13px 14px;
+    color: #fff;
+  }
+  
+  .icon-1 {
+    margin-top: 13%;
+    display: flex;
+    margin-left: 10%;
+    color: #fff;
+  }
+  
+  .icon-2 {
+    color: #fff;
+    margin-left: 22%;
+  }
+  .color {
+    z-index: 0;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      #08273D 0%,
+      #fff0 30%,
+      #fff0 70%,
+      #08273D 100%
+    );
+  }
+  
+  #block{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 12%;
+  }
+  

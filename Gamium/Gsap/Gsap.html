@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+ <link href="./Gsap.css" rel="stylesheet"><link>
+<body>
+    <section>
+        <div>
+            <h2 class="reveal">Get your Metaverse 1</h2>
+            <h2 class="reveal">Connect to any web3 or Metaverse application with your Avatar.</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh6oPIzWAVL6bJTbPZ4N2paZ1xpqti-QRj7g&usqp=CAU" alt="">
+    </section>
+    <section>
+        <div>
+            <h2 class="reveal">Get your Metaverse 2</h2>
+            <h2 class="reveal">Connect to any web3 or Metaverse application with your Avatar.</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWCSoAcwVcztL6bDnd9BCVb6xaov4RFH7aDw&usqp=CAU" alt="">
+    </section>
+    <section>
+        <div>
+            <h2 class="reveal">Get your Metaverse 3</h2>
+            <h2 class="reveal">Connect to any web3 or Metaverse application with your Avatar.</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScOT-RdyXh3Rj66bIYic-F-47JLgOPnLe56A&usqp=CAU" alt="">
+    </section>
+    <section>
+        <div>
+            <h2 class="reveal">Get your Metaverse 4</h2>
+            <h2 class="reveal">Connect to any web3 or Metaverse application with your Avatar.</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AccA6_Q20d5xRUmH0Oe-vQ0XfHEk9enITA&usqp=CAU" alt="">
+    </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+
+    <script>
+   const reveal = gsap.utils.toArray('.reveal');
+   reveal.forEach((text,i)=> {
+    ScrollTrigger.create({
+        trigger:text,
+        toggleClass:'active',
+        start:"top 90%",
+        end:" top 20%",  
+        // markers:true
+    })
+   }
+   )
+   const images = gsap.utils.toArray('.img');
+   images.forEach((img,i)=> {
+    ScrollTrigger.create({
+        trigger:img,
+        toggleClass:'active',
+        start:"top 90%",
+        end:" top 20%",  
+        // markers:true
+    })
+   }
+   )
+    </script>
+</body>
+</html>

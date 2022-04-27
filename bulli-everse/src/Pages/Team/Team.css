@@ -1,0 +1,73 @@
+.teamSection {
+    margin-top: 72px;
+    background-image: url('../../.././public/assets/medie/BG.7bfdce3f.svg');
+}
+.teamSection .titleSection {
+    padding-top: 70px;
+    text-align: center;
+}
+.teamSection .titleSection .greenBorder {
+    background: #00ffa2;
+    min-height: 3px;
+    width: 20px;
+    margin: auto;
+}
+.teamSection .titleSection h2 {
+    text-align: center;
+    font-size: 24.3481px;
+    margin: 6.08701px 0px;
+    padding: 0px;
+}
+.teamSection .teamHeadSection {
+    margin-top: 65px;
+}
+.teamSection .teamHeadSection .internalColumn {
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    height: 100%;
+}
+.teamSection .teamHeadSection img {
+    height: 175px;
+}
+.teamSection .teamHeadSection h1 {
+    margin-top: 32px;
+    font-size: 26px;
+    line-height: 33px;
+}
+.teamSection .teamHeadSection h6 {
+    font-size: 12px;
+    line-height: 17px;
+}
+.teamSection .teamHeadSection p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 14px;
+}
+.teamSection .teamMembersSection {
+    margin-top: 65px;
+}
+.teamSection .teamMembersSection .imgSection {
+    border: 3px solid #fff;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teamSection .teamMembersSection .imgSection img {
+    height: 130px;
+}
+.teamSection .teamMembersSection h1 {
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.teamSection .teamMembersSection h6 {
+    font-size: 12px;
+    line-height: 17px;
+}
+@media only screen and (max-width: 600px) {
+    .teamSection .teamHeadSection .internalColumn {
+        text-align: center;
+   }
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet"> -->
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/img/img/favicon_new.png">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/chx2fbn.css">
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
+            integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" 
+            crossorigin="anonymous">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+            <link 
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+            rel="stylesheet"  type='text/css'>
+    <!-- rss feed -->
+    <link rel="alternate" type="application/rss+xml" title="Blockstream: Bitcoin & digital asset infrastructure" href="https://blockstream.com/feed.xml">
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css" rel="stylesheet" type="text/css"/>
+    <!-- <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js" type="text/javascript"></script> -->
+    <!-- needs to load before dom so author name gets formatted -->
+    <script type="text/javascript" src="./js/utility-scripts/blog-author.js"></script>
+    <script type="text/javascript" src="./js/header_backdrop.js" ></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" ></script>
+    <script type="text/javascript" src="./js/utility-scripts/blog-language-selection.js"></script>
+    <!-- landing page -->
+    <!--NEW LANDING PAGE-->
+    <!--END NEW LANDING PAGE-->
+ 
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css"/>
+   
+    <!-- transifex -->
+    <!-- <script src="./js/mapbox-gl-geocoder.min.js"></script> -->
+    <script type="text/javascript">
+        window.liveSettings = {
+            api_key: "de04b1185f2b4c2faf732d4994f9a7d6"
+        }
+    </script>
+    <script type="text/javascript" src="//cdn.transifex.com/live.js" ></script>
+    <script type="text/javascript" src="./js/utility-scripts/language-selector.js" ></script>
+    <!-- analytics tracking code -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0]
+              , j = d.createElement(s)
+              , dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        }
+        )(window, document, 'script', 'dataLayer', 'GTM-NMZKSZL');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136091963-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-136091963-1');
+    </script>
+    <!-- hotjar tracking code -->
+    <!-- Hotjar Tracking Code for www.blockstream.com -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            }
+            ;
+            h._hjSettings = {
+                hjid: 1351588,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        }
+        )(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://blockstream.com/satellite/"/>
+    <meta property="og:site_name" content="Blockstream: Bitcoin and digital asset infrastructure"/>
+    <meta content="Blockstream: Bitcoin and digital asset infrastructure"/>
+    <title>Blockstream Satellite: Bitcoin blockchain broadcasts</title>
+    <meta property="og:title" content="Blockstream Satellite: Bitcoin blockchain broadcasts">
+    <meta name="twitter:title" content="Blockstream Satellite: Bitcoin blockchain broadcasts"/>
+    <meta property="og:description" content="Blockstream Satellite broadcasts the Bitcoin blockchain around the world 24/7 for free, expanding access to the Bitcoin network to anyone in the world.">
+    <meta name="twitter:description" content="Blockstream Satellite broadcasts the Bitcoin blockchain around the world 24/7 for free, expanding access to the Bitcoin network to anyone in the world.">
+    <meta name="description" content="Blockstream Satellite broadcasts the Bitcoin blockchain around the world 24/7 for free, expanding access to the Bitcoin network to anyone in the world.">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:type" content="website"/>
+    <!-- sets meta image to be used for social shares -->
+    <meta property="og:image" content="https://blockstream.com/img/img/blog_placeholders_satellite.jpg"/>
+    <meta name="twitter:image" content="https://blockstream.com/img/img/blog_placeholders_satellite.jpg"/>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-128212180-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-128212180-1');
+  </script>
+  <script>
+    window.addEventListener('load',(e)=>{
+      const script11 = document.createElement('script')
+      script11.setAttribute(
+  'src',
+ window.origin + '/js/jquery.min.js',
+);
+
+console.log(e)
+const script10 = document.createElement('script')
+script10.setAttribute(
+  'src',
+  window.origin + '/js/mapbox-gl.js',
+  );
+  document.getElementById('root').append(script10)
+  const script12 = document.createElement('script')
+  script12.setAttribute(
+    'src',
+    window.origin + '/js/mapbox-gl-geocoder.min.js',
+    );
+    document.getElementById('root').append(script12)
+    document.getElementById('root').append(script11)
+   
+      const script = document.createElement('script')
+      script.setAttribute(
+  'type',
+  'text/javascript'
+)
+      script.setAttribute(
+  'src',
+  window.origin + '/satellite/satellite-geojson/Tellstar_18V_2.js',
+);
+
+document.getElementById('root').append(script)
+const script2 = document.createElement('script')
+      script2.setAttribute(
+  'src',
+  window.origin + '/satellite/satellite-geojson/G18_NAKH.js',
+);
+      document.getElementById('root').append(script2)
+const script3 = document.createElement('script')
+      script3.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/37W-Ku-Africa.js',
+);
+      document.getElementById('root').append(script3)
+const script4 = document.createElement('script')
+      script4.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/113W-Ku-2.js',
+);
+      document.getElementById('root').append(script4)
+    
+const script5 = document.createElement('script')
+      script5.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/satellite-map.js',
+);
+      document.getElementById('root').append(script5)
+const script6 = document.createElement('script')
+      script6.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/satellite-scripts.js',
+);
+      document.getElementById('root').append(script6)
+const script7 = document.createElement('script')
+      script7.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/satellite-dishpointer.js',
+);
+      document.getElementById('root').append(script7)
+ 
+const script8 = document.createElement('script')
+      script8.setAttribute(
+  'src',
+ window.origin + '/satellite/satellite-geojson/navigation.js',
+)
+      document.getElementById('root').append(script8)
+const map = document.createElement('div')
+map.id='map'
+      document.querySelector('.satellite_network-coverage_map-container_map').append(map)
+    })
+   
+ 
+</script>
+
+<!-- // document.getElementById('root').append(document.createElement('script').src='/satellite/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/37W-Ku-Europe.js')
+// document.getElementById('root').append(document.createElement('script').src='/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/')
+// document.getElementById('root').append(document.createElement('script').src='/satellite/satellite-geojson/') -->
+
+   
+
+<!-- // <script type="text/javascript" src="./satellite/satellite-geojson/Tellstar_18V_2.js" defer></script> -->
+<!-- // <script type="text/javascript" src="./satellite/satellite-geojson/Tellstar_18V.js" defer></script>
+// <script type="text/javascript" src="./satellite/satellite-geojson/G18_NAKH.js"defer ></script>
+// <script type="text/javascript" src="./satellite/satellite-geojson/37W-Ku-Europe.js" defer></script>
+// <script type="text/javascript" src="./satellite/satellite-geojson/37W-Ku-Africa.js"defer ></script>
+// <script type="text/javascript" src="./satellite/satellite-geojson/113W-Ku-2.js" defer></script> -->
+<!-- // <script type="text/javascript" src="./satellite/satellite-map.js"defer ></script> -->
+<!-- // <script type="text/javascript" src="./satellite/satellite-scripts.js" defer></script> -->
+<!-- // <script type="text/javascript" src="./satellite/satellite-dishpointer.js" defer></script> -->
+<!-- // <script type="text/javascript" src="./js/navigation.js" defer></script> -->
+// <!-- <script type="text/javascript" src="/assets/js/fly-in.js" async></script> -->
+<!-- // <script type="text/javascript" src="./js/formSubmission.js"defer ></script>
+// <script type="text/javascript" src="./js/back-to-top.js" defer></script>
+// <script type="text/javascript" src="./js/utility-scripts/deorphan.js"defer></script> -->
+  
+  </body>
+</html>

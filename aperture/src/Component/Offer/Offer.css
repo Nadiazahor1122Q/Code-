@@ -1,0 +1,92 @@
+.padding {
+    padding: 4.25rem 0px;
+}
+
+.textContainer {
+    width: 1075px;
+    margin: auto;
+}
+.textHeader {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: bold;
+    margin: auto;
+    padding: 1rem 0px 2rem;
+    width: fit-content;
+}
+#offering .offeringClass {
+    background-color: rgb(33, 32, 48);
+    padding: 2rem;
+    margin: auto auto 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.css-1d3bbye {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#offering .offeringClass .grid:first-of-type {
+    padding-right: 34rem;
+}
+
+#offering .offeringClass h2 {
+    font-size: 30px;
+    line-height: 49px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+#offering .offeringClass p {
+    font-size: 18px;
+    line-height: 26px;
+}
+#offering .offeringClass .grid:last-of-type {
+    margin-left: 56%;
+    margin-top: -10%;
+}
+#offering .offeringClass .grid img {
+    width: 502px;
+}
+#offering .offeringClass {
+    background-color: rgb(33, 32, 48);
+    padding: 2rem;
+    margin: auto auto 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#offering .offeringClass h2 {
+    font-size: 30px;
+    line-height: 49px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media (min-width: 900px)
+{
+    .css-1ekasd5 {
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 50%;
+}
+}
+.css-1ekasd5 {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="992px" viewBox="0 0 2000 992" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BMN_logo_no_padding 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BMN_logo_no_padding" fill-rule="nonzero">
+            <g id="Group">
+                <polygon id="Path" fill="#000000" points="17.2 733.7 17.2 258.2 429.1 20.4 840.9 258.2 840.9 733.7 429.1 971.5"></polygon>
+                <path d="M429.1,40.2 L823.7,268.1 L823.7,723.8 L429.1,951.7 L34.3,723.8 L34.3,268.1 L429.1,40.2 M429.1,0.6 L0,248.3 L0,743.7 L429.1,991.4 L858.1,743.7 L858.1,248.3 L429.1,0.6 L429.1,0.6 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+            <g id="Group" transform="translate(186.000000, 233.000000)" fill="#FFFFFF">
+                <polygon id="Path" points="237.8 406 122.1 376.4 122.1 458.4 237.8 525.3"></polygon>
+                <polygon id="Path" points="248.5 405.1 248.5 525.3 485.8 388.2 485.8 306.3"></polygon>
+                <polygon id="Path" points="237.7 173.7 0.5 234.3 0.5 291.2 237.7 352.1"></polygon>
+                <polygon id="Path" points="248.3 174.5 248.3 351.3 364.1 304.6 364.1 222.8"></polygon>
+                <polygon id="Path" points="237.7 0.7 122.1 67.4 122.1 149.4 237.7 119.9"></polygon>
+                <polygon id="Path" points="248.3 0.6 248.3 120.7 485.8 219.6 485.8 137.6"></polygon>
+            </g>
+            <g id="Group" transform="translate(1161.000000, 348.000000)" fill="#FFFFFF">
+                <path d="M98.4,0.5 C167.8,0.5 205.6,25.2 205.6,77.5 C205.6,107.7 190.2,128.6 166.9,140.1 C197.1,151.3 214.9,173.3 214.9,209.9 C214.9,255.4 185.1,294.2 107.7,294.2 L0,294.2 L0,0.5 L98.4,0.5 Z M59.7,116.7 L99.3,116.7 C132.1,116.7 146.2,103.8 146.2,83.1 C146.2,62.8 136,50.8 93,50.8 L59.8,50.8 L59.7,116.7 L59.7,116.7 Z M59.7,244 L102.8,244 C138.6,244 155.6,230.3 155.6,205.3 C155.6,177.6 137.4,167 97.3,167 L59.8,167 L59.8,244 L59.7,244 Z" id="Shape"></path>
+                <polygon id="Path" points="409.1 160.7 490.7 0.6 547.3 0.6 547.3 294.4 490.3 294.4 490.3 112.1 426.4 241.5 390.3 241.5 327.3 113.4 327.3 294.3 270.7 294.3 270.7 0.5 326.5 0.5"></polygon>
+                <polygon id="Path" points="839 0.5 839 294.3 789.3 294.3 674.8 112.5 674.8 294.3 618.2 294.3 618.2 0.5 667.6 0.5 782.5 184.8 782.5 0.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

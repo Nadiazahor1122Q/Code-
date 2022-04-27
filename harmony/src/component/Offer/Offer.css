@@ -1,0 +1,48 @@
+
+.container-fluid {
+    overflow: hidden;
+  }
+  p.banner-subheading {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+
+
+  img.mw-25.aos-init.aos-animate {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  img.text-logo {
+    margin-left: 20px;
+  
+}
+div.neo {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #16181a, #131416);
+    box-shadow: 2px 2px 38px #000000, -2px -2px 32px #343940, inset -6px -6px 68px rgba(41, 45, 50, 0.5);
+    /* box-shadow: 5px 5px 10px #0b0c0d, -5px -5px 10px #1f2023; */
+    text-decoration: none;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -0.5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  div.neo .neo-description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #929292;
+  }
+    
